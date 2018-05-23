@@ -1,0 +1,39 @@
+/**
+* For mobile device
+*/
+
+/* MEDIA: Large desktops and laptops */
+@media (min-width: 1200px) {
+	
+}
+
+/* MEDIA: Portrait tablets and medium desktops */
+@media (min-width: 980px) {}
+
+/* MEDIA: Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 979px) {}
+
+/* MEDIA: Landscape phones and portrait tablets */
+@media (min-width: 481px) and (max-width: 767px) {}
+
+/* MEDIA: Custom 650 */
+@media (max-width: 650px) {}
+
+/* MEDIA: Landscape phones and smaller */
+@media (max-width: 480px) {
+		.caption h1 {
+		font-size: 5px;
+	}
+}
+
+/* MEDIA: Custom 320 */
+@media (max-width: 320px) {
+	.caption h1 {
+		font-size: 5px;
+	}
+}
+
+/* MEDIA: Custom 240 */
+@media (max-width: 240px) {
+
+}

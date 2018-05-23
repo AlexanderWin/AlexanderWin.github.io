@@ -5,8 +5,7 @@
 body {
 	margin: 0;
 }
-.main-page {
-	width: 100%;
+.main-page {	
 	height: 1000px;
 	background-image: url(icons/photo.png);
 	-webkit-background-size: cover;
@@ -61,7 +60,7 @@ li {
 h1 {
 
 	margin: 0;
-	font-size: 20px;
+	font-size: 50px;
 	font-weight: 400;
 }
 
