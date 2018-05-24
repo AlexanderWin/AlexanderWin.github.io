@@ -1,0 +1,42 @@
+.top_elements {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	height: 40px;
+}
+
+.logo{	
+	font-size: 29px;
+	color: #fff;
+	display: inline-block;
+	padding: 20px 10px 20px 0;
+}
+
+span {
+	vertical-align: 5px;
+	color: #fff;
+	border-left: 1px solid grey;	
+	padding: 5px 5px 5px 15px;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+.main_menu li{		
+	float: right;
+	display: block;
+	list-style-type: none;
+	padding: 0 20px 30px 0;
+	color: #fff;	
+}
+
+
+.start_button {
+	display: inline-block;
+	float: right;
+	font-family: 'Montserrat';
+	font-size: 12px;
+	margin-top: 40px;
+	padding: 10px 20px;
+	background-color: #7d8e8e;
+
+}

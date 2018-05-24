@@ -1,0 +1,58 @@
+
+body {
+  /* Location of the image */
+  background-image: url(main_menu_background.png);  
+  position: relative;
+  z-index: 1;
+  background-position: center center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:#464646; 
+}
+
+body {
+	
+}
+
+/* For mobile devices */
+@media only screen and (max-width: 767px) {
+  body {
+    /* The file size of this background image is 93% smaller
+     * to improve page load speed on mobile internet connections */
+    background-image: url(main_menu_background.png);    
+  }
+}
+
+
+
+
+
+/*
+* For mobile device
+*/
+
+/* MEDIA: Large desktops and laptops */
+@media (min-width: 1200px) {}
+
+
+/* MEDIA: Portrait tablets and medium desktops */
+@media (min-width: 980px) {}
+
+/* MEDIA: Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 979px) {}
+
+/* MEDIA: Landscape phones and portrait tablets */
+@media (min-width: 481px) and (max-width: 767px) {}
+
+/* MEDIA: Custom 650 */
+@media (max-width: 650px) {}
+
+/* MEDIA: Landscape phones and smaller */
+@media (max-width: 480px) {}
+
+/* MEDIA: Custom 320 */
+@media (max-width: 320px) {}
+
+/* MEDIA: Custom 240 */
+@media (max-width: 240px) {}
