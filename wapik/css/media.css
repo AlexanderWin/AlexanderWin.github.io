@@ -10,11 +10,6 @@ body {
   background-size: cover;
   background-color:#464646; 
 }
-
-body {
-	
-}
-
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
   body {
@@ -23,21 +18,21 @@ body {
     background-image: url(main_menu_background.png);    
   }
 }
-
-
-
-
-
 /*
 * For mobile device
 */
-
 /* MEDIA: Large desktops and laptops */
-@media (min-width: 1200px) {}
+@media (min-width: 1200px) {
+	
+}
 
 
 /* MEDIA: Portrait tablets and medium desktops */
-@media (min-width: 980px) {}
+@media (max-width: 990px) {
+  .main_menu li {
+    display: none;
+  }
+}
 
 /* MEDIA: Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 979px) {}
@@ -49,7 +44,25 @@ body {
 @media (max-width: 650px) {}
 
 /* MEDIA: Landscape phones and smaller */
-@media (max-width: 480px) {}
+@media (max-width: 460px) {
+  .logo {
+    font-size: 14px;
+  }
+  span {
+    font-size: 7px;  
+    vertical-align: 2px;  
+  }
+  .start_button {
+    padding: 5px 10px;
+    font-size: 6px;
+    margin-top: 22px;
+  }
+  .main_menu {
+    font-size: 10px;
+    margin-top: 24px;
+    margin-right: 0;
+  }
+}
 
 /* MEDIA: Custom 320 */
 @media (max-width: 320px) {}
