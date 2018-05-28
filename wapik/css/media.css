@@ -32,7 +32,9 @@ body {
   .main_menu li {
     display: none;
   }
-}
+  .start_button {
+    display: none;
+  }
 
 /* MEDIA: Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 979px) {}
@@ -48,19 +50,19 @@ body {
   .logo {
     font-size: 14px;
   }
-  span {
-    font-size: 7px;  
+  .number {
+    font-size: 10px;  
     vertical-align: 2px;  
   }
-  .start_button {
-    padding: 5px 10px;
-    font-size: 6px;
-    margin-top: 22px;
-  }
-  .main_menu {
+  .main_menu ul{
     font-size: 10px;
     margin-top: 24px;
     margin-right: 0;
+  }
+  .top_buttons {  
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
   }
 }
 
