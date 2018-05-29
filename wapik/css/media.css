@@ -35,6 +35,10 @@ body {
   .start_button {
     display: none;
   }
+  .caption_1 {
+    font-size: 25px;
+    margin-top: 80px;
+  }  
 
 /* MEDIA: Portrait tablets and small desktops */
 @media (min-width: 768px) and (max-width: 979px) {}
