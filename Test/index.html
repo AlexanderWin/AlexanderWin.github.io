@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+	<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+	<title>Test</title>
+	<meta name="description" content="Sidebar Transitions: Transition effects for off-canvas views" />
+	<meta name="keywords" content="transition, off-canvas, navigation, effect, 3d, css3, smooth" />	
+	<link rel="shortcut icon" href="../favicon.ico">
+	<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+	<link rel="stylesheet" type="text/css" href="css/demo.css" />
+	<link rel="stylesheet" type="text/css" href="css/icons.css" />
+	<link rel="stylesheet" type="text/css" href="css/component.css" />
+	<link rel="stylesheet" href="css/">
+	<script src="js/modernizr.custom.js"></script>
+</head>
+<body>
+	<div id="st-container" class="st-container">
+			<!-- 	
+				example menus 
+				these menus will be on top of the push wrapper
+			-->
+
+			
+			<nav class="st-menu st-effect-11" id="menu-11">				
+				<ul>
+					<li><a href="#">Data Management</a></li>
+					<li><a href="#">Location</a></li>
+					<li><a href="#">Study</a></li>
+					<li><a href="#">Collections</a></li>
+					<li><a href="#">Credits</a></li>
+				</ul>
+
+
+			</nav>
+
+
+
+			<!-- content push wrapper -->
+			<div class="st-pusher">
+				<!-- 	
+					example menus 
+					these menus will be under the push wrapper
+				-->
+
+				<div class="st-content"><!-- this is the wrapper for the content -->
+					<div class="st-content-inner"><!-- extra div for emulating position:fixed of the menu -->
+						<!-- Top Navigation -->
+
+						<header class="codrops-header">							
+						</header>	
+						<div class="wrapper">
+							<img src="img/cup.png" alt="cup">					
+							<h1>Лидер демонтажной отрасли Санкт-Петербурга</h1>
+						</div>
+						
+						<div class="main clearfix">
+							<div id="st-trigger-effects" class="column">													
+								<button data-effect="st-effect-11"><img src="img/burger.svg" alt="burger"></button>
+							</div>										
+						</div><!-- /main -->
+					</div><!-- /st-content-inner -->
+				</div><!-- /st-content -->
+			</div><!-- /st-pusher -->
+		</div><!-- /st-container -->
+		<script src="js/classie.js"></script>
+		<script src="js/sidebarEffects.js"></script>
+	</body>
+	</html>
