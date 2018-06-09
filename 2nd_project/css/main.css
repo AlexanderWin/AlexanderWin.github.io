@@ -86,7 +86,7 @@ font-family: 'Montserrat', sans-serif;
 
 .header_section_3 {
 	width: 100%;
-	height: 831px;	
+	height: 622px;	
 }
 .section_3 {
 	text-align: center;
@@ -99,8 +99,7 @@ font-family: 'Montserrat', sans-serif;
 	margin: 0;
 }
 .section_3 div {
-	color: #6fb048;
-	margin-top: 0;
+	color: #6fb048;	
 }
 .section_3 p {
 	color: #83a7a5;
@@ -118,7 +117,6 @@ font-family: 'Montserrat', sans-serif;
 	width: 300px;
 	height: 200px;
 	text-align: center;
-
 }
 .flex-container h1 {	
 	color: #0f5f5c;
@@ -130,5 +128,36 @@ font-family: 'Montserrat', sans-serif;
 	color: #83a7a5;	
 }
 
+			/*	SECTION_4 Meat Our Team 		*/
 
+.header_section_4 {
+	width: 100%;
+	height: 622px;
+	background-color: #eef1ec;	
 
+}
+.section_4 {
+	text-align: center;
+	margin: auto;
+	width: 34%;
+	margin-top: 105px;
+}
+.section_4 h1 {
+	color: #0f5f5c;
+	margin: 0;
+}
+.section_4 div {
+	color: #6fb048;
+	margin-top: 0;
+}
+.section_4 p {
+	color: #83a7a5;
+	margin-top: 10px;
+	font-weight: bold;	
+}
+.flex-container {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+	flex-direction: row;
+}
