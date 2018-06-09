@@ -1,18 +1,18 @@
 
-body {
+header {
   /* Location of the image */
   background-image: url(main_menu_background.png);  
+  height: 100vh;
   position: relative;
   z-index: 1;
   background-position: center center;
-  background-repeat: no-repeat; 
-  background-attachment: fixed;
+  background-repeat: no-repeat;  
   background-size: cover;
   background-color:#464646; 
 }
 /* For mobile devices */
 @media only screen and (max-width: 767px) {
-  body {
+  header {
     /* The file size of this background image is 93% smaller
      * to improve page load speed on mobile internet connections */
     background-image: url(main_menu_background.png);    
