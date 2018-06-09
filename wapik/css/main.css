@@ -109,6 +109,8 @@ font-family: 'Montserrat', sans-serif;
 .flex-container {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
+	flex-direction: row;
 }
 .flex-container div {
 	margin-top: 100px;	

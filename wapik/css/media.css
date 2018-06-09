@@ -47,7 +47,11 @@ header {
 @media (min-width: 481px) and (max-width: 767px) {}
 
 /* MEDIA: Custom 650 */
-@media (max-width: 650px) {}
+@media (max-width: 650px) {
+    .section_3 {
+    width: 80%;
+  }
+}
 
 /* MEDIA: Landscape phones and smaller */
 @media (max-width: 460px) {
@@ -69,6 +73,9 @@ header {
     font-size: 10px;
     float: right;
   }
+   .section_3 {
+    width: 80%;
+  }
 }
 
 /* MEDIA: Custom 320 */
@@ -76,8 +83,11 @@ header {
   .top_buttons {
     position: relative;
     top: -65px;
-
   }
+  .section_3 {
+    width: 80%;
+  }
+} 
   
 
 /* MEDIA: Custom 240 */
