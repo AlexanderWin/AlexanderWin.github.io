@@ -90,8 +90,18 @@ header {
     .flex-container div {
       margin-top: 50px;
     }
-    .flex-container img {
-
+    .section_5 {
+      height: 300px;
+      margin-top: 100px;      
+    }   
+    .section_5 h2 {
+      margin-left: 40px;
+    }
+    .section_5 p {
+      display: none;     
+    }
+    .download_button {
+      margin: 50px 50px 0 0;
     }
     /* MEDIA: Custom 320 */
     @media (max-width: 320px) {
