@@ -11,7 +11,7 @@
 	font-size: 29px;
 	color: #fff;
 	display: inline-block;
-	padding: 20px 10px 20px 0;
+	padding: 20px 10px 20px 0;	
 }
 .number {
 	vertical-align: 5px;
@@ -128,7 +128,7 @@ font-family: 'Montserrat', sans-serif;
 	color: #83a7a5;	
 }
 
-			/*	SECTION_4 Meat Our Team 		*/
+			/*	SECTION_4 Meet Our Team 		*/
 
 .header_section_4 {
 	width: 100%;
@@ -214,5 +214,64 @@ font-family: 'Montserrat', sans-serif;
 	padding: 10px;	
 	display: block;	
 }
+
+/* 				SECTION_6 About company 		*/
+	
+.about_company {
+	font-family: 'Roboto', sans-serif;
+	display: flex;
+	justify-content: space-evenly;	
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-top: 100px;
+	margin-bottom: 60px;
+}
+.about_company h3{
+	color: #0f5f5c;
+	font-weight: 600;
+}
+.about_company p{
+	color: #83a7a5;
+	font-weight: 600;
+}
+.about_company span {
+	font-weight: 900;
+	color: #0f5f5c;
+}
+input[type=text] {
+	background-color: #eef1ec;
+	border: none;
+	width: 240px;
+	padding: 11px 10px 10px 5px;	
+	color: #83a7a5;
+	font-weight: 600;
+}
+
+								/*Подвал с иконками*/
+.rights {
+	font-family: 'Roboto', sans-serif;	
+	color: #83a7a5;
+	margin-top: 3px;	
+	font-weight: 500;
+}
+
+.soc_icons ul {	
+	list-style-type: none;
+	display: flex;
+	float: right;		
+} 
+.soc_icons ul li a img{
+	margin-left: 10px;	
+}
+.flex-container_2 {
+	display: flex;
+	justify-content: center;		
+	flex-wrap: wrap;
+	flex-direction: row;
+	margin-bottom: 8px;
+}
+
+
+		
 
 
