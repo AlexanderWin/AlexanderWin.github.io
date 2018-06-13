@@ -1,0 +1,37 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	font-family: 'Quicksand', sans-serif;
+	font-weight: 300;
+	width: 100%;
+	height: 200px;
+	
+	font-size: 36px;
+}
+.title {
+	margin: 100px 0 100px 100px;
+}
+.flex-container {
+	display: flex;	
+	flex-wrap: wrap;
+	flex-direction: row;
+	padding: 0;
+	margin-left: 150px;
+
+}
+.flex-container div {
+	width: 400px;
+	height: 400px;	
+	justify-content: flex-start;
+}
+.flex-container img {
+	transition-duration: 0.5s;
+	opacity: 1;
+}
+.flex-container img:hover {
+	opacity: 0.8;
+
+}
