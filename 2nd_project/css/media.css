@@ -39,131 +39,150 @@ header {
     font-size: 25px;
     margin-top: 80px;
   }  
+}
+/* MEDIA: Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 979px) {}
 
-  /* MEDIA: Portrait tablets and small desktops */
-  @media (min-width: 768px) and (max-width: 979px) {}
+/* MEDIA: Landscape phones and portrait tablets */
+@media (min-width: 481px) and (max-width: 767px) {}
 
-  /* MEDIA: Landscape phones and portrait tablets */
-  @media (min-width: 481px) and (max-width: 767px) {}
-
-  /* MEDIA: Custom 650 */
-  @media (max-width: 650px) {
-    .header_section_3 {
-      height: 1100px;
-    }
-    .header_section_4 {
-      height: 1150px;
-    }
-    .section_3 {
-      height: 130px;
-      width: 80%; 
-      margin-top: 40px;     
-    }
-    .section_4 {
-      width: 80%;
-    }
-
-
+/* MEDIA: Custom 650 */
+@media (max-width: 650px) {
+  .header_section_3 {
+    height: 1100px;
   }
+  .header_section_4 {
+    height: 1150px;
+  }
+  .section_3 {
+    height: 130px;
+    width: 80%; 
+    margin-top: 40px;     
+  }
+  .section_4 {
+    width: 80%;
+  }
+}
 
-  /* MEDIA: Landscape phones and smaller */
-  @media (max-width: 460px) {
-    .logo {
-      font-size: 14px;
-    }
-    .number {
-      font-size: 10px;  
-      vertical-align: 2px;  
-    }
-    .main_menu ul{
-      font-size: 10px;
-      margin-top: 20px;
-      margin-right: 0;
-    }
-    .top_buttons {  
-      padding: 0;
-      margin: 0;
-      font-size: 10px;
-      float: right;
-    }
-    .section_3 {   
-      width: 80%;
-      margin-top: 30px;
-    }
-    .flex-container {
-      flex-direction: column;
-    }
-    .flex-container div {
-      margin-top: 60px;
-    }
-    .flex-container_1 div {
-      margin-top: 85px;
-      
-    }
-    .section_4 {
-      margin-top: 30px;
-    } 
-    .section_5 {
-      height: 300px;           
-    }   
-    .section_5 h2 {
-      text-align: center;
-      margin: 100px 46px 0 39px;
-    }
-    .section_5 p {
-      display: none;     
-    }
-    .download_button {
-      margin: 50px 109px 0 0;
-    }
-    .about_company {
-      margin-top: 30px;               
-      flex-direction: column;        
-    } 
-    .about_company h3,p {
-      text-align: center;
-    }
-    input[type=text] {
-      margin-left: 110px;
-    }
-    .rights {
-      margin-bottom: 20px;
-    }
-    .soc_icons ul{
-      padding: 0;
-    }
-  }  
-  /* MEDIA: Custom 320 */
-  @media (max-width: 320px) {
-
-    .top_buttons {
-      position: relative;
-      top: -65px;
-    }
-    .section_3 {
-      width: 80%;
-      margin-top: 30px;
-
-    }
-    .about_company {
-      margin-top: 30px;               
-      flex-direction: column;        
-    } 
-    .about_company h3,p {
-      text-align: center;
-    }
-    input[type=text] {
-      margin-left: 40px;
-    }
-    .rights {
-      margin-bottom: 20px;
-    }
-    .soc_icons ul{
-      padding: 0;
-    }
+/* MEDIA: Landscape phones and smaller */
+@media (max-width: 460px) {
+  .logo {
+    font-size: 14px;
+  }
+  .number {
+    font-size: 10px;  
+    vertical-align: 2px;  
+  }
+  .main_menu ul {
+    font-size: 10px;
+    margin-top: 20px;
+    margin-right: 0;
+  }
+  .top_buttons {  
+    padding: 0;
+    margin: 0;
+    font-size: 10px;
+    float: right;
+  }
+  .section_3 {   
+    width: 80%;
+    margin-top: 30px;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-container div {
+    margin-top: 60px;
+  }
+  .flex-container_1 div {
+    margin-top: 85px;      
+  }
+  .section_4 {
+    margin-top: 30px;
   } 
+  .section_5 {
+    height: 300px;           
+  }   
+  .section_5 h2 {
+    text-align: center;
+    margin: 100px 46px 0 39px;
+  }
+  .section_5 p {
+    display: none;     
+  }
+  .download_button {
+    margin: 50px 109px 0 0;
+  }
+  .about_company {
+    margin-top: 30px;               
+    flex-direction: column;        
+  } 
+  .about_company h3,p {
+    text-align: center;
+  }
+  input[type=text] {
+    margin-left: 110px;
+  }
+  .rights {
+    margin-bottom: 20px;
+  }
+  .soc_icons ul{
+    padding: 0;
+  }
+}
+
+/* MEDIA: Custom 320 */
+@media (max-width: 320px) {
+
+  .header_section_3 {
+    height: 1020px;
+  }
+  .top_buttons {
+    position: relative;
+    top: -65px;
+  }
+  .section_3 {
+    width: 80%;
+    margin-top: 30px;
+  }  
+  .flex-container div {
+   margin-top: 30px;
+   width: 300px;
+   height: 200px;
+   text-align: center;
+  }
+   .flex-container {
+    margin-top: 190px;
+  }
+  .flex-container_1 p {
+    float: left;
+  }
+  .section_5 h2 {
+    text-align: center;
+    margin: 50px 46px 0 39px;
+  }
+  .download_button {
+    margin: 41px 36px 0 0;
+  }
+  .about_company {
+    margin-top: 30px;               
+    flex-direction: column;        
+  } 
+  .about_company h3,p {
+    text-align: center;
+  }
+  input[type=text] {
+    margin-left: 40px;
+  }
+  .rights {
+    margin-bottom: 20px;
+  }
+  .soc_icons ul{
+    padding: 0;
+  }
+} 
 
 
 
-  /* MEDIA: Custom 240 */
-  @media (max-width: 240px) {}
+/* MEDIA: Custom 240 */
+@media (max-width: 240px) {}
