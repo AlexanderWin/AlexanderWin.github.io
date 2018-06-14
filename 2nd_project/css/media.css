@@ -84,15 +84,20 @@ header {
     font-size: 10px;
     float: right;
   }
+  .header_section_3 {
+    height: 921px;
+  }
   .section_3 {   
     width: 80%;
     margin-top: 30px;
   }
   .flex-container {
     flex-direction: column;
+    margin: 115px 0px 0px 78px;
+
   }
   .flex-container div {
-    margin-top: 60px;
+    margin-top: 20px;
   }
   .flex-container_1 div {
     margin-top: 85px;      
@@ -115,13 +120,19 @@ header {
   }
   .about_company {
     margin-top: 30px;               
-    flex-direction: column;        
+    flex-direction: row;        
   } 
-  .about_company h3,p {
+  .about_company div {
+    width: 50%;
+  }
+  .about_company h3 {
     text-align: center;
   }
-  input[type=text] {
-    margin-left: 110px;
+  .about_company p {
+    text-align: center;
+  }
+  input[type=text] { 
+    
   }
   .rights {
     margin-bottom: 20px;
