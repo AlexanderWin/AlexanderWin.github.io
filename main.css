@@ -32,6 +32,12 @@ header {
 	opacity: 1;
 }
 .flex-container img:hover {
-	opacity: 0.8;
-
+	opacity: 0.8;	
 }
+
+@media only screen and (max-width : 320px){
+	.flex-container {
+		margin-left: 0;
+}
+
+
