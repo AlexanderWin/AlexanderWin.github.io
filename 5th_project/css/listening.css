@@ -1,0 +1,47 @@
+body{
+	font: 1em Arial,sans-serif;
+}
+
+.accordion{
+	list-style: none;
+	border-top: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+	border-right: 1px solid #ddd;
+	margin: .5rem 0 1rem 0;
+	padding-left: 0;
+	width: 100%;
+}
+
+.accordion-header{
+	
+	background: #fff;
+	border-bottom: 1px solid #ddd;
+	cursor: pointer;
+	min-height: 3rem;
+	line-height: 3rem;
+	padding: 0 1rem;
+	text-align: center;
+
+}
+
+.accordion-header:after{
+	font-weight: bold;
+	content: "";
+	float: right;
+}
+
+.accordion-header.active:after{
+	font-weight: bold;
+	content: "";
+	float: right;
+	a
+}
+
+.accordion-body{
+	display: none;
+	padding: 1rem;
+	border-bottom: 1px solid #ddd;
+}
+audio{
+	padding-left: 11px;
+}
