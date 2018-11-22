@@ -13,7 +13,7 @@ body{
 }
 
 .accordion-header{
-	
+
 	background: #fff;
 	border-bottom: 1px solid #ddd;
 	cursor: pointer;
@@ -44,4 +44,7 @@ body{
 }
 audio{
 	padding-left: 11px;
+}
+p{
+	
 }

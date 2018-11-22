@@ -28,7 +28,7 @@ header {
 	justify-content: flex-start;
 }
 .flex-container img {
-	transition-duration: 0.5s;
+	transition-duration: 0.5s;	
 	opacity: 1;
 }
 .flex-container img:hover {
