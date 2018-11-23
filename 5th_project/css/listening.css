@@ -42,9 +42,12 @@ body{
 	padding: 1rem;
 	border-bottom: 1px solid #ddd;
 }
-audio{
-	padding-left: 11px;
+
+audio{	
+	width: 30%;	
 }
-p{
-	
+h1{
+	font-size: 12px;
+	width: 30%;
+	text-align: center;
 }
