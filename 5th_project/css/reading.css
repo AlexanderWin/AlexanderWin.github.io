@@ -1,0 +1,38 @@
+.block {
+    position: absolute;    
+    width: 100%; 
+    left: 0;
+    top: 0;  
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform 1.5s;
+}
+.block_2{
+    position: absolute;   
+    width: 100%;
+    left: 0;
+    top: 50%;
+    -webkit-transform-style: preserve-3d;
+    -webkit-transition: -webkit-transform 1.5s;
+}
+.rotated{
+    transform: rotateY(180deg);
+}
+.side{
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -webkit-box-shadow: 0 2px 5px #666;
+}
+.front{  
+    width: 100%;
+    font-size: 12px;
+    text-indent: 20px;
+}
+.back{ 
+    width: 100%;
+    font-size: 12px;
+     transform: rotateY(180deg);
+    text-indent: 20px;
+}
+h1{
+    font-size: 12px;
+}
