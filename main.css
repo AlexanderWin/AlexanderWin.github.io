@@ -12,7 +12,8 @@ header {
 	font-size: 36px;
 }
 .title {
-	margin: 100px 0 100px 30px;
+	width: 100%;
+	text-align: center;
 }
 .flex-container {
 	display: flex;	
@@ -28,6 +29,7 @@ header {
 	justify-content: flex-start;
 }
 .flex-container img {
+	width: 100%;
 	transition-duration: 0.5s;	
 	opacity: 1;
 }
