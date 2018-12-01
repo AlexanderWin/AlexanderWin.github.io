@@ -20,8 +20,6 @@ header {
 	flex-wrap: wrap;
 	flex-direction: row;
 	padding: 0;
-	
-
 }
 .flex-container div {
 	width: 300px;
