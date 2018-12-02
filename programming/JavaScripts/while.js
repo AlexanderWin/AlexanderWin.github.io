@@ -1,5 +1,6 @@
 var A = 0;
-	while(A<=11){
-		document.write(A);
-		A++;
-	}
+do{
+	document.write(A);
+	A++;
+}
+while(A<=12);
