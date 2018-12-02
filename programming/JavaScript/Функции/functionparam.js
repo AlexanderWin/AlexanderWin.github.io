@@ -1,4 +1,6 @@
 function parameters(name) {
-	document.write("Hello " + name);
+	document.write("Hello " + name + "<br>");
 }
-parameters("jeremy");
+parameters("Alex");
+parameters("Alexander");
+parameters("Evgen");
