@@ -43,14 +43,14 @@ var n = prompt("Enter a number", "");
 var answer = Math.sqrt(n);
 alert("The square root of " + n + " is " + answer);
 
-setInterval
+// setInterval
 
 function myAlert() {
 	document.write("Hi");
 }
 setInterval(myAlert, 3000);
 
-obj Date
+// obj Date
 
 var d = new Date();
 var hours = d.getHours();
