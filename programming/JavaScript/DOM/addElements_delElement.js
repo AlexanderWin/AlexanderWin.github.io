@@ -1,3 +1,5 @@
+//addElement
+
 var p = document.createElement("p");
 var node = document.createTextNode("new text");
 p.appendChild(node);
@@ -9,3 +11,10 @@ var node_h1 = document.createTextNode("new headline");
 h1.appendChild(node_h1);
 var div = document.getElementById("h1");
 div.appendChild(h1);
+
+
+//delElement
+
+var parent = document.getElementById("delete");
+var child = document.getElementById("s1");
+parent.removeChild(child);
