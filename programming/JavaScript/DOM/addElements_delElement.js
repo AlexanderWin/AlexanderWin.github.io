@@ -18,3 +18,4 @@ div.appendChild(h1);
 var parent = document.getElementById("delete");
 var child = document.getElementById("s1");
 parent.removeChild(child);
+
