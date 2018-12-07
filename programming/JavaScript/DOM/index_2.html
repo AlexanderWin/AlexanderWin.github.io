@@ -9,14 +9,39 @@
 	<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
 	<link rel="stylesheet" href="css/main.min.css">	
 </head>
-<body>
-<div id="demo">
-	<p id="p1">First</p>
-	<p id="p2">Second</p>
+<style>
+#container {
+	width: 200px;
+	height: 200px;
+	background: green;
+	position: relative;
+}
+#box {
+	width: 50px;
+	height: 50px;
+	background: red;
+	position: absolute;
+}
+</style>
+
+<div id="container">
+	<div id="box"></div>
 </div>
 
 
-<script src="substitution_of_elements.js"></script>
+
+
+
+<body>
+	<div id="demo">
+		<p id="p1">First</p>
+		<p id="p2">Second</p>
+	</div>
+
+
+
+	<script src="simple_animation.js"></script>
+	<script src="substitution_of_elements.js"></script>
 </body>
 </html>
 
