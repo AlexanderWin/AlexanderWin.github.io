@@ -5,11 +5,11 @@
 	];
 	var num = 0;
 	var t = setInterval(move, 1000);
-		function move() {
-			var slider = document.getElementById('slider');
-			num++
-			if (num >= images.length) {
-				num = 0;
-			}
-			slider.src = images[num];
+	function move() {
+		var slider = document.getElementById('slider');
+		num++
+		if (num >= images.length) {
+			num = 0;
 		}
+		slider.src = images[num];
+	}
