@@ -16,5 +16,9 @@ function letTest() {
     console.log(x);
 }
 
+const a = 'hello';
+// a = "abc";
+
+
 varTest(); 
 letTest();  //works within brackets
