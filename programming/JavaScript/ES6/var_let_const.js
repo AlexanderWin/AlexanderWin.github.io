@@ -16,9 +16,26 @@ function letTest() {
     console.log(x);
 }
 
-const a = 'hello';
-// a = "abc";
+function con() {
+    const a = 'hello';
+    // a = "abc"; Uncaught TypeError: Assignment to constant variable.
+    console.log(a);
+}
+con();
 
 
-varTest(); 
+varTest();
 letTest();  //works within brackets
+
+
+//template strings ES5
+
+let name = 'Alex';
+let msg = 'Welcome' + name + '!';
+console.log(msg);
+
+// ES6
+
+let name_2 = 'Alex';
+let msg_2 = `Good Morning ${name_2} !`;
+console.log(msg_2);
