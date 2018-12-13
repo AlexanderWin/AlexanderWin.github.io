@@ -18,3 +18,19 @@ let athlete = {
 };
 console.log(athlete.height);
 console.log(athlete.width);
+
+let name = 'name';
+let id = '1234';
+let mobile = '08914';
+
+// obj ini
+
+let user = {
+    [name]: 'Jack',
+    [`user_${id}`]: `${mobile}`
+};
+console.log(user.name);
+console.log(user.user_1234);
+
+// object.assign()
+
