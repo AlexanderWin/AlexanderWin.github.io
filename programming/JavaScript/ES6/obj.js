@@ -18,3 +18,4 @@ let athlete = {
 };
 console.log(athlete.height);
 console.log(athlete.width);
+ыва
