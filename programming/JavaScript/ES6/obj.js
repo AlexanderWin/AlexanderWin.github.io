@@ -32,5 +32,5 @@ let user = {
 console.log(user.name);
 console.log(user.user_1234);
 
-// object.assign()
+
 
