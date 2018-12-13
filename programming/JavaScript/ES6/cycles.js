@@ -12,4 +12,3 @@ for (let ch of "he123") {
     console.log(ch);
 }
 
-123
