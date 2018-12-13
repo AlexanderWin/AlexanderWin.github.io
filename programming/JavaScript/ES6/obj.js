@@ -32,5 +32,21 @@ let user = {
 console.log(user.name);
 console.log(user.user_1234);
 
+// object_assign
 
+let person = {
+    name: 'Alex',
+    age: 29,
+    sex: 'male'
+};
+let student = {
+    name: 'bob',
+    age: 19,
+    xp: '2'
+};
+let newStudent = Object.assign({}, person, student);
+console.log(newStudent.name);
+console.log(newStudent.age);
+console.log(newStudent.sex);
+console.log(newStudent.xp);
 
